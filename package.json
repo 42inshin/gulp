@@ -1,0 +1,29 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an development environment.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/42inshin/gulp.git"
+  },
+  "author": "42inshin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/42inshin/gulp/issues"
+  },
+  "homepage": "https://github.com/42inshin/gulp#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.4",
+    "@babel/register": "^7.18.9",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.2.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
